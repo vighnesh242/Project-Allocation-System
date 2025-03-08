@@ -1,0 +1,87 @@
+table{
+    text-align: center;
+    font-size:14px;
+    font-weight: 400;
+    color: black;
+}
+  h1{
+    font-size:22px;
+  }
+  label{
+    float : left;
+  }
+  span{
+    display: block;
+    overflow: hidden;
+    padding: 0px 4px 0px 6px;
+  }
+  .content-wrapper{
+    padding: 50px;
+    background-color: white;
+    padding: auto 10%; 
+    margin: 5% 10% 5% 25%;
+    border-radius: 1px;
+    border-width: 20px;
+    border-color: #ad5bff;
+    border-top-style: solid;
+    border-top-width: 3.5px;
+    box-shadow: 0px 2px 8px 1px grey;
+  }
+  input[type=text], input[type=password], textarea, select{
+    width: 200px;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid white ;
+    
+    border-radius: 7px;
+  }
+  input[type=text]:focus, input[type=password]:focus{
+    
+    outline: none;
+  }
+  hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  .registerbtn{
+    background-color: royalblue;
+    color: white;
+    padding: 10px 16px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    opacity: 1.0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-weight: 600;
+  }
+  .registerbtn:hover{
+    opacity: 0.7;
+  }
+  .control{
+    width:70px;
+    padding: 2px;
+    font-size: 12px;
+    border-radius: 3px;
+    color: white;
+  }
+  .add{
+    background-color: green;
+    
+  }
+  .remove{
+    background-color: red;
+  }
+  .apply{
+    background-color: royalblue;
+    border-radius: 5px;
+  }
+  .flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
